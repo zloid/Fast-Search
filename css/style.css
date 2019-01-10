@@ -1,0 +1,45 @@
+.nav {
+    line-height: .9 !important;
+}
+
+.row-one, .full {
+    background: #363636;
+    color: #fff;
+}
+
+.nav {
+    background: #e74c3c;
+    width: 1000px;
+    /* padding-right: 20px; */
+}
+
+.nav a {
+    color: #fff;
+}
+
+a.nav-link {
+    text-transform: uppercase;
+    padding: 0 !important;
+    padding: 42px 20px !important;
+}
+
+a.nav-link:hover {
+    background: #f46758;
+    color: #363636;
+} 
+  
+.search-logo {
+    display: block;
+    width: 110px;
+    height: 55px;
+    margin-top: 20px;
+    margin-right: 470px;
+    /* position: absolute; */
+    float: left !important;
+}
+
+.after-nav {
+    width: 1000px;
+    /* background: #fd7e14; */
+}
+   
