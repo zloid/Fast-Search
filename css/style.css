@@ -23,16 +23,17 @@
     footer .col-sm:nth-child(2) h3 {
         margin-top: 15px !important;
     }
-
-    footer .col-sm:nth-child(2), footer .col-sm:nth-child(3), footer .col-sm:nth-child(4), footer .col-sm:nth-child(5) {
+    footer .col-sm:nth-child(2),
+    footer .col-sm:nth-child(3),
+    footer .col-sm:nth-child(4),
+    footer .col-sm:nth-child(5) {
         /* width: 100%; */
         padding: 0 10px 0 0 !important;
     }
     h1 {
-        font-size: 1.7rem !important;
+        font-size: 1.65rem !important;
     }
 }
- 
 
 @media (min-width: 560px) {
     .navigation {
@@ -56,7 +57,7 @@
     .top-red h2 {
         margin-top: 25px;
     }
-    .btn-below-h1 {
+    .btn-below-h1-2 {
         margin-bottom: 25px !important;
     }
     .top-white {
@@ -91,13 +92,16 @@
         /* display: none; */
         /* border: 3px solid red; */
     }
-    footer, .top-red {
-        padding: 0 5px !important;
+    footer,
+    /* .top-red { */
+    .top-red-cover {
+        padding: 0 10px 10px 10px !important;
     }
 }
 
 @media (min-width: 992px) {
-    .btn-below-h1 {
+     
+    .btn-below-h1-2 {
         margin-top: 55px !important;
     }
     .top-white {
@@ -118,7 +122,7 @@
     .top-red figure {
         margin-bottom: 30px;
     }
-    .top-red {
+    .top-red-cover {
         padding-bottom: 35px;
     }
     .bottom-white {
@@ -219,19 +223,25 @@ h2 {
 .below-h1 {
     max-width: 620px;
 }
-
+/* 
 .btn-below-h1 {
     background: #404040;
     border: 1px solid #9b9b9b;
     border-radius: 0px !important;
     color: #fff;
     padding: 16px 55px;
-    opacity: 0.5;
+} */
+
+.btn-below-h1-2 {
+    border: 1px solid #fff;
+    padding: 15px 55px;
+    text-transform: uppercase;
+    border: 1px solid #9b9b9b;
 }
 
-.btn-below-h1:hover {
-    color: #ccc;
-    /* opacity: 0; */
+.btn-below-h1-2:hover {
+    color: #ddd;
+    background: #404040;
 }
 
 .top-white {
@@ -333,7 +343,8 @@ footer h3 {
 /* footer .col-sm:nth-child(1) img,
 .col-sm:nth-child(2) img,
 .col-sm:nth-child(3) img { */
-   footer img {
+
+footer img {
     width: 50px;
     height: 50px;
     float: left;
@@ -352,7 +363,7 @@ footer .col-sm:nth-child(3) h3 {
     color: red;
     opacity: 0;
 }
- 
+
 .sprite {
     background-image: url(../img/social.png);
     background-repeat: no-repeat;
@@ -394,4 +405,13 @@ footer .col-sm:nth-child(3) h3 {
 .top-header-2 {
     /* background: rgba(54, 54, 54, 0.6);  */
     background: #000000bc
+}
+
+.top-red {
+    background: url(../img/middle-city.jpg);
+    background-size: cover;
+}
+
+.top-red-cover {
+    background: #f05443bc;
 }
