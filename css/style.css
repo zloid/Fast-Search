@@ -353,7 +353,8 @@ footer .col-sm:nth-child(3) h3 {
 }
 
 .top-header {
-    background: url(../img/header-city-3.jpg) no-repeat center center;
+    /* background: url(../img/header-city-3.jpg) no-repeat center center; */
+    background: url(https://cdn.discordapp.com/attachments/685476125383720992/685476461053739033/header-city-3.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -363,7 +364,8 @@ footer .col-sm:nth-child(3) h3 {
 }
 
 .top-red {
-    background: url(../img/middle-city.jpg);
+    /* background: url(../img/middle-city.jpg); */
+    background: url(https://cdn.discordapp.com/attachments/685476125383720992/685477011371720706/middle-city.png);
     background-size: cover;
 }
 
