@@ -1,5 +1,5 @@
-# Fast-Search v0.1.0
+# Fast-Search
 
-Free PSD "Fast Search – Corporate Template" from http://www.pcklab.com/templates/fast-search-corporate-template
+Bootstrap 4 html page from free PSD layout "Fast Search – Corporate Template" from http://www.pcklab.com/templates/fast-search-corporate-template
 
 

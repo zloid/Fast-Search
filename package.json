@@ -1,0 +1,19 @@
+{
+  "name": "fast-search",
+  "version": "0.2.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zloid/Fast-Search.git"
+  },
+  "author": "zloid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zloid/Fast-Search/issues"
+  },
+  "homepage": "https://github.com/zloid/Fast-Search#readme"
+}
