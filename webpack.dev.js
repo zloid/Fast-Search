@@ -15,7 +15,7 @@ module.exports = {
         hotUpdateMainFilename: 'hot/hot-update.json',
     },
     devServer: {
-        port: 8082,
+        port: 8083,
         contentBase: path.join(__dirname, 'dist'),
         hot: true,
         watchContentBase: true,
