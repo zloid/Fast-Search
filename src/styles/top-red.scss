@@ -1,0 +1,9 @@
+.top-red {
+    background: #db574a;
+    background: url(../../public/assets/middle-city.jpg);
+    background-size: cover;
+
+    &__cover {
+        background: rgba(240, 84, 67, 0.75);
+    }
+}

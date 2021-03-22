@@ -1,0 +1,47 @@
+.top-header {
+    background: url(../../public/assets/header-city-3.jpg) no-repeat center
+        center;
+    background-size: cover;
+
+    &__front-cover {
+        background: rgba(0, 0, 0, 0.75);
+    }
+
+    .nav-link {
+        color: #fff !important;
+        padding: 42px 20px 42px 20px !important;
+        text-transform: uppercase;
+
+        &:hover {
+            background: #f46758;
+            color: #363636 !important;
+        }
+
+        @include media('<phone') {
+            padding: 20px 20px !important;
+        }
+    }
+
+    &__below-h1 {
+        max-width: 620px;
+    }
+
+    &__btn-below-h1-2 {
+        border: 1px solid #fff;
+        padding: 15px 55px;
+        text-transform: uppercase;
+        border: 1px solid #9b9b9b;
+
+        &:hover {
+            color: #ddd;
+            background: #404040;
+        }
+
+        @include media('<desktop') {
+            margin-bottom: 25px !important;
+        }
+        @include media('>desktop') {
+            margin-top: 55px !important;
+        }
+    }
+}

@@ -1,6 +1,6 @@
 {
   "name": "fast-search",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "description": "PSD template -> HTML, SCSS, JS",
   "main": "index.js",
   "scripts": {

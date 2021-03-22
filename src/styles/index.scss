@@ -1,10 +1,13 @@
 @import '~include-media/dist/_include-media.scss';
 @import 'variables.scss';
+@import 'top-header.scss';
+@import 'top-white.scss';
+@import 'top-red.scss';
 
 @media (max-width: 576px) {
-    a.nav-link {
-        padding: 20px 20px !important;
-    }
+    // a.nav-link {
+    // padding: 20px 20px !important;
+    // }
     .bottom-white figure:nth-child(5),
     figure:nth-child(6),
     figure:nth-child(7) {
@@ -53,11 +56,11 @@
         margin-top: 25px;
     }
     .btn-below-h1-2 {
-        margin-bottom: 25px !important;
+        // margin-bottom: 25px !important;
     }
     .top-white {
-        padding: 10px;
-        padding-top: 20px;
+        // padding: 10px;
+        // padding-top: 20px;
     }
     .bottom-white h2 {
         margin: 25px auto !important;
@@ -90,11 +93,11 @@
 
 @media (min-width: 992px) {
     .btn-below-h1-2 {
-        margin-top: 55px !important;
+        // margin-top: 55px !important;
     }
     .top-white {
-        padding-top: 95px;
-        padding-bottom: 85px;
+        // padding-top: 95px;
+        // padding-bottom: 85px;
     }
     .top-red h2 {
         margin-bottom: 60px;
@@ -156,7 +159,7 @@ body {
 header {
     max-width: 1000px;
 }
-
+/* 
 .nav-link {
     color: #fff !important;
     padding: 42px 20px 42px 20px !important;
@@ -167,7 +170,7 @@ header {
     background: #f46758;
     color: #363636 !important;
 }
-
+ */
 .navbar-brand {
     margin-left: 20px !important;
 }
@@ -180,9 +183,10 @@ button.navbar-toggler {
     color: #fff;
 }
 
+/* 
 .row-white {
     max-width: 1000px;
-}
+} */
 
 h1 {
     display: block !important;
@@ -203,50 +207,46 @@ h2 {
     margin-bottom: 25px;
 }
 
-.below-h1 {
-    max-width: 620px;
-}
-
 .btn-below-h1-2 {
-    border: 1px solid #fff;
-    padding: 15px 55px;
-    text-transform: uppercase;
-    border: 1px solid #9b9b9b;
+    // border: 1px solid #fff;
+    // padding: 15px 55px;
+    // text-transform: uppercase;
+    // border: 1px solid #9b9b9b;
 }
 
 .btn-below-h1-2:hover {
-    color: #ddd;
-    background: #404040;
+    // color: #ddd;
+    // background: #404040;
 }
 
 .top-white {
-    background: #fff;
-    color: #000;
-    line-height: 1.4;
+    // background: #fff;
+    // color: #000;
+    // line-height: 1.4;
 }
 
-.top-white a,
+// .top-white a,
 footer a {
     color: #e74c3c;
     text-decoration: underline;
 }
 
-.top-white a:hover,
+// .top-white a:hover,
 footer a:hover {
     color: #e74c3c;
     text-decoration: none;
 }
 
-.top-white p {
-    margin-right: 11px;
-}
+// .top-white p {
+// margin-right: 11px;
+// }
 
 .text-best {
     color: #e74c3c;
 }
 
 .top-red {
-    background: #db574a;
+    // background: #db574a;
 }
 
 .top-red h2 {
@@ -355,25 +355,13 @@ footer .col-sm:nth-child(3) h3 {
     background-position: -43px -1px;
 }
 
-.top-header {
-    /* background: url(https://cdn.discordapp.com/attachments/685476125383720992/685476461053739033/header-city-3.png) no-repeat center center; */
-    background: url(../../public/assets/header-city-3.jpg) no-repeat center
-        center;
-    background-size: cover;
-}
+// .top-red {
+/* background: url(https://cdn.discordapp.com/attachments/685476125383720992/685477011371720706/middle-city.png); */
+// background: url(../../public/assets/middle-city.jpg);
+// background-size: cover;
+// }
 
-.top-header-2 {
-    /* background: #000000bc */
-    background: rgba(0, 0, 0, 0.75);
-}
-
-.top-red {
-    /* background: url(https://cdn.discordapp.com/attachments/685476125383720992/685477011371720706/middle-city.png); */
-    background: url(../../public/assets/middle-city.jpg);
-    background-size: cover;
-}
-
-.top-red-cover {
-    /* background: #f05443bc; */
-    background: rgba(240, 84, 67, 0.75);
-}
+// .top-red-cover {
+/* background: #f05443bc; */
+// background: rgba(240, 84, 67, 0.75);
+// }
