@@ -1,0 +1,42 @@
+@import '~include-media/dist/_include-media.scss';
+@import 'variables.scss';
+@import 'top-header.scss';
+@import 'top-white.scss';
+@import 'top-red.scss';
+@import 'bottom-white.scss';
+@import 'bottom-black.scss';
+
+body {
+    // background: #363636;
+    color: #fff;
+}
+
+.fa-navicon {
+    color: #fff;
+}
+
+h2 {
+    text-transform: uppercase;
+    line-height: 0.9;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    transform: scale(1, 1);
+    color: #3e3e3e !important;
+    margin-bottom: 25px;
+
+    @include media('<desktop') {
+        font-size: 1.4rem !important;
+        text-align: center;
+    }
+}
+
+.text-best {
+    color: #e74c3c;
+}
+
+@media (min-width: 992px) {
+    .col-sm:nth-child(6) {
+        margin-right: 0px;
+    }
+}

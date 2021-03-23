@@ -1,0 +1,85 @@
+.bottom-white {
+    background: #fff;
+    color: #000;
+
+    @include media('<phone') {
+        & figure:nth-child(5),
+        & figure:nth-child(6),
+        & figure:nth-child(7) {
+            display: none !important;
+        }
+    }
+    @include media('<desktop') {
+        &:nth-child(4),
+        &:nth-child(5) {
+            text-align: center;
+        }
+        &:nth-child(6),
+        figure:nth-child(7) {
+            display: none !important;
+        }
+        &:nth-child(7) {
+            text-align: center;
+        }
+    }
+    @include media('>=desktop') {
+        padding-top: 100px !important;
+
+        & .col-sm {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+        & figcaption {
+            margin-bottom: 80px;
+        }
+    }
+
+    &__row {
+        @include media('>=desktop') {
+            max-width: 1040px;
+            padding-left: 20px;
+        }
+        @include media('<desktop') {
+            max-width: 1000px;
+        }
+    }
+
+    &__navigation {
+        @include media('<phone') {
+            padding-right: 45% !important;
+            margin-bottom: 15px;
+        }
+        @include media('>=phone') {
+            padding-right: 47.5% !important;
+        }
+        @include media('<desktop') {
+            margin-bottom: 25px;
+        }
+        @include media('>desktop') {
+            padding-right: 18px !important;
+        }
+        & > img {
+            float: right;
+            margin-left: 10px;
+        }
+    }
+
+    h2 {
+        @include media('<desktop') {
+            font-size: 1.4rem !important;
+            text-align: center;
+            margin: 25px auto !important;
+        }
+    }
+
+    & figure img {
+        width: 235px;
+        height: 130px;
+        background: #fff;
+    }
+
+    & figcaption {
+        margin-top: 10px;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,93 @@
+.top-header {
+    header {
+        max-width: 1000px;
+
+        @include media('>=desktop') {
+            padding-bottom: 160px;
+        }
+    }
+
+    h1 {
+        display: block !important;
+        text-transform: uppercase;
+        font-family: 'Source Sans Pro', sans-serif;
+        transform: scale(1.01, 1);
+        padding: 160px 0 25px 0;
+
+        @include media('<phone') {
+            font-size: 1.65rem !important;
+            // margin-left: 10px !important;
+        }
+        @include media('>=phone') {
+            font-size: 2.8rem !important;
+        }
+        @include media('<desktop') {
+            padding-top: 15px !important;
+            padding-bottom: 15px !important;
+        }
+        @include media('>=desktop') {
+            font-size: 4rem !important;
+        }
+    }
+
+    background: url(../../public/assets/header-city-3.jpg) no-repeat center
+        center;
+    background-size: cover;
+
+    &__front-cover {
+        background: rgba(0, 0, 0, 0.75);
+    }
+
+    .nav-link {
+        color: #fff !important;
+        padding: 42px 20px 42px 20px !important;
+        text-transform: uppercase;
+
+        &:hover {
+            background: #f46758;
+            color: #363636 !important;
+        }
+
+        @include media('<phone') {
+            padding: 20px 20px !important;
+        }
+    }
+
+    &__below-h1 {
+        max-width: 620px;
+    }
+
+    &__btn-below-h1-2 {
+        border: 1px solid #fff;
+        padding: 15px 55px;
+        text-transform: uppercase;
+        border: 1px solid #9b9b9b;
+
+        &:hover {
+            color: #ddd;
+            background: #404040;
+        }
+
+        @include media('<desktop') {
+            margin-bottom: 25px !important;
+        }
+        @include media('>desktop') {
+            margin-top: 55px !important;
+        }
+    }
+
+    .navbar {
+        line-height: 0.9 !important;
+        background: #e74c3c !important;
+        width: 100%;
+        padding: 0% !important;
+    }
+
+    .navbar-brand {
+        margin-left: 20px !important;
+    }
+
+    .navbar-toggler {
+        margin: 10px !important;
+    }
+}

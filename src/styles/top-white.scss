@@ -1,0 +1,30 @@
+.top-white {
+    background: #fff;
+    color: #000;
+    line-height: 1.4;
+
+    @include media('<desktop') {
+        padding: 20px 10px 10px 10px;
+    }
+    @include media('>=desktop') {
+        padding-top: 95px;
+        padding-bottom: 85px;
+    }
+
+    &__link {
+        color: #e74c3c;
+        text-decoration: underline;
+        &:hover {
+            color: #e74c3c;
+            text-decoration: none;
+        }
+    }
+
+    p {
+        margin-right: 11px;
+    }
+
+    &__row-white {
+        max-width: 1000px;
+    }
+}

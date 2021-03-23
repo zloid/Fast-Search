@@ -1,0 +1,50 @@
+.top-red {
+    background: #db574a;
+    background: url(../../public/assets/middle-city.jpg);
+    background-size: cover;
+
+    &__cover {
+        background: rgba(240, 84, 67, 0.75);
+        padding: 0 10px 10px 10px !important;
+
+        @include media('>=desktop') {
+            padding-bottom: 35px !important;
+        }
+    }
+
+    &__heading {
+        margin-top: 25px;
+        text-transform: uppercase;
+        color: #fff !important;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+        font-size: 2.4rem;
+        transform: scale(0.9, 1) !important;
+
+        @include media('>=desktop') {
+            margin-bottom: 60px;
+            margin-top: 45px;
+        }
+    }
+
+    &__row-white {
+        max-width: 1000px;
+    }
+
+    p {
+        text-align: center;
+        line-height: 1.3;
+    }
+
+    .col-sm {
+        @include media('>=desktop') {
+            margin-right: 20px;
+        }
+    }
+
+    figure {
+        @include media('>=desktop') {
+            margin-bottom: 30px;
+        }
+    }
+}
