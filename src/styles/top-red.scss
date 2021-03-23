@@ -19,7 +19,7 @@
         font-family: 'Open Sans', sans-serif;
         font-weight: 100;
         font-size: 2.4rem;
-        transform: scale(0.9, 1);
+        transform: scale(0.9, 1) !important;
 
         @include media('>=desktop') {
             margin-bottom: 60px;
